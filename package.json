@@ -1,0 +1,28 @@
+{
+  "name": "eshop",
+  "version": "1.0.0",
+  "description": "Backend of eshop",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantiwari35/Eshop-Backend.git"
+  },
+  "author": "Shantanu Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shantiwari35/Eshop-Backend/issues"
+  },
+  "homepage": "https://github.com/shantiwari35/Eshop-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
